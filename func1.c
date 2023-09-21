@@ -28,6 +28,7 @@ void add_to_stack(stack_t **new_node, __attribute__((unused))unsigned int ln)
 void print_stack(stack_t **stack, unsigned int l_num)
 {
 	stack_t *tmp;
+
 	(void) l_num;
 
 	if (stack == NULL)
